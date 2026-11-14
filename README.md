@@ -11,7 +11,7 @@
 | `game/` | 遊戲本體 M1 測試版（泓 2026-11-14 同意公開） | 私人倉庫 `evolution-wilds` 的 `release/m1`（32347bc），`apps/web` 用 `npx vite build --sourcemap false` 建置（不要附 .map） |
 | `m3/` | 遊戲本體 M3 測試版（進化與戰鬥；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m3/game-dist/`（分支 `claude/project-thread-vngf7f` @ a308f63），排除 `.map` 並刪掉 `sourceMappingURL` |
 | `m2/` | 遊戲本體 M2 測試版（`?stress=30` 壓力測試；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m2/game-dist/`（分支 `claude/project-thread-4vet3m` @ a672c74），複製時排除 `.map` 並刪掉 `sourceMappingURL` |
-| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11–16 蛟龍／神龍線、11 小玄武龜、12 玄武龜、13 泰坦玄武龜、14 小玄武、15 玄武、16 泰坦玄武） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
+| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11–16 蛟龍／神龍線、11 小玄武龜、12 玄武龜、13 泰坦玄武龜、14 小玄武、15 玄武、16 泰坦玄武、11–16 猛獸恐龍線） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 
 `.nojekyll` 讓 GitHub Pages 原樣提供所有檔案。
 
@@ -21,7 +21,7 @@
 - 兩個頁面：觸控裝置（iPad）預設關掉 Bloom 與 MSAA（`src/showcase/app.ts` 裡 `coarse` 判斷）。iPad 中畫質移動時出現閃爍黑影，低畫質沒有；網址加 `?bloom=1&msaa=4` 可以恢復原本設定做比較。iPad mini 中畫質仍有黑影，所以觸控裝置的中／高畫質陰影改成 1 層、只涵蓋 45 公尺（`?cascades=2&shadowfar=150` 恢復）；`?shadows=0` 完全關掉陰影，用來排查。
 - 兩個頁面與首頁：禁止 iPad 頁面縮放（viewport `user-scalable=no`、擋 gesture／dblclick／連點 touchend，`touch-action`）。
 - 兩個頁面：左下面板最上方有「▾ 收合」按鈕，可把面板、標題和數據收起來（每台裝置會記住）。
-- `creatures/`：小蛟龍的飛行動作（Hover／TakeOff／Land）在展示台多一列「飛行」按鈕，只對 `creatureFiles.ts` 的 `FLYING_CREATURES`（整條龍線）顯示；`dragonMaterial.ts` 來自分支 `claude/project-thread-hx3b3h`；`shellMaterial.ts`、`shellShader.ts` 與小玄武龜來自 `claude/project-thread-xmmi14`。
+- `creatures/`：小蛟龍的飛行動作（Hover／TakeOff／Land）在展示台多一列「飛行」按鈕，只對 `creatureFiles.ts` 的 `FLYING_CREATURES`（整條龍線）顯示；`dragonMaterial.ts` 來自分支 `claude/project-thread-hx3b3h`；`shellMaterial.ts`、`shellShader.ts` 與小玄武龜來自 `claude/project-thread-xmmi14`；`hideMaterial.ts`、`hideShader.ts` 與 6 隻恐龍（小迅猛龍到泰坦暴龍）來自 `claude/project-thread-69wa9x`（ab1e09a）。
 - `creatures/`：鏡頭依生物實際大小（Box3）自動拉遠，展示台的縮放範圍也跟著放大；右側有「＋／－」縮放按鈕（iPad 不能用頁面縮放）。
 - `creatures/`：遊戲鏡頭在觸控裝置上加了右下角圓形「攻擊」按鈕（跟美術樣板一樣），讓一隻手指轉視角時另一隻手指可以攻擊。原始實驗室沒有這個按鈕；這個修改只在展示版。
 

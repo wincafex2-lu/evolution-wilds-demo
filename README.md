@@ -10,7 +10,7 @@
 | `art/` | 第 6 階段 芽尾獸 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
 | `game/` | 遊戲本體 M1 測試版（泓 2026-11-14 同意公開） | 私人倉庫 `evolution-wilds` 的 `release/m1`（32347bc），`apps/web` 用 `npx vite build --sourcemap false` 建置（不要附 .map） |
 | `m2/` | 遊戲本體 M2 測試版（`?stress=30` 壓力測試；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m2/game-dist/`（分支 `claude/project-thread-4vet3m` @ 0b09ec5），複製時排除 `.map` 並刪掉 `sourceMappingURL` |
-| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11 小蛟龍、11 小玄武龜） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
+| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11 小蛟龍、11 小玄武龜、12 玄武龜、13 泰坦玄武龜） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 
 `.nojekyll` 讓 GitHub Pages 原樣提供所有檔案。
 

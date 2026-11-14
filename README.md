@@ -6,14 +6,15 @@
 
 | 路徑 | 內容 | 來源 |
 | --- | --- | --- |
-| `index.html` | 首頁，連到下面兩個預覽 | 手寫 |
-| `art/` | 芽尾獸 S1 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
+| `index.html` | 首頁，依階段排列（第 7 階段史前鱷魚先留空位，做好後改成連到 `creatures/?creature=<ID>`） | 手寫 |
+| `art/` | 第 6 階段 芽尾獸 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
 | `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、8 小蛇、9 蟒蛇、10 泰坦巨蟒） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 
 `.nojekyll` 讓 GitHub Pages 原樣提供所有檔案。
 
 ## 展示版專屬修改
 
+- 兩個頁面：觸控裝置（iPad）**關掉即時陰影**（泓的決定，iPad 和 iPad mini 都會閃黑影），改用 `src/showcase/blobShadow.ts` 在生物腳下畫柔和的橢圓影子；載入與切換畫質都套用。`?shadows=1` 在觸控裝置打開陰影，`?shadows=0` 在電腦上關掉。
 - 兩個頁面：觸控裝置（iPad）預設關掉 Bloom 與 MSAA（`src/showcase/app.ts` 裡 `coarse` 判斷）。iPad 中畫質移動時出現閃爍黑影，低畫質沒有；網址加 `?bloom=1&msaa=4` 可以恢復原本設定做比較。iPad mini 中畫質仍有黑影，所以觸控裝置的中／高畫質陰影改成 1 層、只涵蓋 45 公尺（`?cascades=2&shadowfar=150` 恢復）；`?shadows=0` 完全關掉陰影，用來排查。
 - 兩個頁面與首頁：禁止 iPad 頁面縮放（viewport `user-scalable=no`、擋 gesture／dblclick／連點 touchend，`touch-action`）。
 - 兩個頁面：左下面板最上方有「▾ 收合」按鈕，可把面板、標題和數據收起來（每台裝置會記住）。

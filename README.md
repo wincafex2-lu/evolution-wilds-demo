@@ -21,6 +21,7 @@
 - 兩個頁面與首頁：禁止 iPad 頁面縮放（viewport `user-scalable=no`、擋 gesture／dblclick／連點 touchend，`touch-action`）。
 - 兩個頁面：左下面板最上方有「▾ 收合」按鈕，可把面板、標題和數據收起來（每台裝置會記住）。
 - `creatures/`：小蛟龍的飛行動作（Hover／TakeOff／Land）在展示台多一列「飛行」按鈕，只對 `creatureFiles.ts` 的 `FLYING_CREATURES`（整條龍線）顯示；`dragonMaterial.ts` 來自分支 `claude/project-thread-hx3b3h`；`shellMaterial.ts`、`shellShader.ts` 與小玄武龜來自 `claude/project-thread-xmmi14`。
+- `creatures/`：鏡頭依生物實際大小（Box3）自動拉遠，展示台的縮放範圍也跟著放大；右側有「＋／－」縮放按鈕（iPad 不能用頁面縮放）。
 - `creatures/`：遊戲鏡頭在觸控裝置上加了右下角圓形「攻擊」按鈕（跟美術樣板一樣），讓一隻手指轉視角時另一隻手指可以攻擊。原始實驗室沒有這個按鈕；這個修改只在展示版。
 
 ## 怎麼更新（有新生物通過審核時）

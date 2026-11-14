@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | `index.html` | 首頁，連到下面兩個預覽 | 手寫 |
 | `art/` | 芽尾獸 S1 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
-| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓） | 生物實驗室；蚯蚓的 `annelid*` 材質與 `EARTHWORM*.glb` 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
+| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、8 小蛇、9 蟒蛇、10 泰坦巨蟒） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 
 `.nojekyll` 讓 GitHub Pages 原樣提供所有檔案。
 
@@ -25,6 +25,6 @@
    - 美術樣板：`evolution-wilds-art-sample/`，再套用最新的動作補丁（`patch -p1 < .../from-sample.patch`，並複製補丁裡的 `reference-showcase/src/showcase/*` 和 `assets/creatures/*`）。
    - 生物實驗室：`evolution-wilds-creatures/`（新生物的 `<ID>.glb`、`_LOD1`、`_LOD2` 放進 `assets/creatures/` 就會自動出現在選單）。
 2. 在工作目錄執行 `npx -y npm@11.21.2 ci`、`npx tsc -p tsconfig.json`、`npx vite build`（`vite.config.ts` 已設 `base: './'`，路徑都是相對的）。
-3. 若共享實驗室還沒有蚯蚓，把 `annelidMaterial.ts`、`annelidShader.ts` 和 `creatureLooks.ts`／`creatureView.ts` 的 annelid 分支合進去。若生物實驗室的 `src/showcase/panel.ts`、`styles.css` 沒有 `evo-strike` 攻擊按鈕，照上面「展示版專屬修改」再加回去（觸控畫質設定也一樣）。
+3. 若共享實驗室還沒有蚯蚓或蛇，把 `annelid*.ts`、`scale*.ts` 和 `creatureLooks.ts`／`creatureView.ts` 的 annelid 分支合進去。若生物實驗室的 `src/showcase/panel.ts`、`styles.css` 沒有 `evo-strike` 攻擊按鈕，照上面「展示版專屬修改」再加回去（觸控畫質設定也一樣）。
 4. 用新的 `dist/` 整個取代這裡的 `art/` 或 `creatures/`，必要時更新首頁文字，推上 `main`。Pages 約一兩分鐘後更新。
 5. 不要把原始碼、`.map`、截圖審查頁或任何個人資料放進來。

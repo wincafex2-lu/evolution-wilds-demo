@@ -9,7 +9,7 @@
 | `index.html` | 首頁，依階段排列（新生物做好後加一張卡片，連到 `creatures/?creature=<ID>`） | 手寫 |
 | `art/` | 第 6 階段 芽尾獸 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
 | `game/` | 遊戲本體 M1 測試版（泓 2026-11-14 同意公開） | 私人倉庫 `evolution-wilds` 的 `release/m1`（32347bc），`apps/web` 用 `npx vite build --sourcemap false` 建置（不要附 .map） |
-| `m3/` | 遊戲本體 M3 測試版（進化與戰鬥；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m3/game-dist/`（分支 `claude/project-thread-vngf7f` @ e7702dc），排除 `.map` 並刪掉 `sourceMappingURL` |
+| `m3/` | 遊戲本體 M3 測試版（進化與戰鬥；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m3/game-dist/`（分支 `claude/project-thread-vngf7f` @ 80b2f72），排除 `.map` 並刪掉 `sourceMappingURL` |
 | `m2/` | 遊戲本體 M2 測試版（`?stress=30` 壓力測試；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m2/game-dist/`（分支 `claude/project-thread-4vet3m` @ a672c74），複製時排除 `.map` 並刪掉 `sourceMappingURL` |
 | `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11–16 蛟龍／神龍線、11 小玄武龜、12 玄武龜、13 泰坦玄武龜、14 小玄武、15 玄武、16 泰坦玄武） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 

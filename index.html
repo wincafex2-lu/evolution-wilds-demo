@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>無限進化 展示</title>
+<style>
+  :root { color-scheme: dark; --bg: #141a12; --card: #1f2a1b; --ink: #eef0e6; --soft: #b7bfa8; --accent: #b6d46a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    padding: max(24px, env(safe-area-inset-top)) 16px 32px; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 30px; margin: 8px 0 4px; }
+  .sub { color: var(--soft); margin: 0 0 28px; }
+  a.card { display: block; background: var(--card); border-radius: 18px; padding: 22px 22px 20px; margin-bottom: 18px;
+    color: inherit; text-decoration: none; border: 2px solid transparent; }
+  a.card:active, a.card:hover { border-color: var(--accent); }
+  .card h2 { margin: 0 0 6px; font-size: 22px; }
+  .card p { margin: 0; color: var(--soft); line-height: 1.55; }
+  .go { display: inline-block; margin-top: 14px; background: var(--accent); color: #1a2010; font-weight: 700;
+    padding: 10px 18px; border-radius: 999px; }
+  .tips { color: var(--soft); font-size: 14px; line-height: 1.6; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>無限進化</h1>
+  <p class="sub">美術預覽（還不是遊戲，只能看生物和走走看）</p>
+
+  <a class="card" href="./art/">
+    <h2>芽尾獸 × 草原</h2>
+    <p>在草原上操控芽尾獸走路、奔跑、轉身，還能看攻擊、受擊、進食動作。</p>
+    <span class="go">進入 →</span>
+  </a>
+
+  <a class="card" href="./creatures/">
+    <h2>進化線生物</h2>
+    <p>第 1 階段螞蟻、第 2 階段蚱蜢。可以切換生物、播放各種動作。</p>
+    <span class="go">進入 →</span>
+  </a>
+
+  <div class="tips">
+    操作：在「角色展示台」用手指拖曳旋轉、雙指縮放。切到「遊戲鏡頭」後，左半邊拖曳移動，右半邊拖曳轉視角，右下角圓形按鈕攻擊。<br>
+    模型比較大，第一次打開要等幾秒。
+  </div>
+</main>
+</body>
+</html>

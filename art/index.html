@@ -2,11 +2,17 @@
 <html lang="zh-Hant-TW">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>無限進化 美術樣板</title>
     <meta name="claude:viewport-fit-sides" content="cover" />
-    <script type="module" crossorigin src="./assets/index-CK7Sdrmu.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-B54CqHVD.css">
+      <script>
+      // Demo build only: stop iPad Safari page zoom (double-tap, pinch) while kids tap the game.
+      for (const t of ['gesturestart', 'gesturechange', 'gestureend', 'dblclick']) document.addEventListener(t, (e) => e.preventDefault(), { passive: false });
+      let lastTouchEnd = 0;
+      document.addEventListener('touchend', (e) => { const now = Date.now(); if (now - lastTouchEnd < 350 && e.cancelable && !(e.target instanceof Element && e.target.closest('button'))) e.preventDefault(); lastTouchEnd = now; }, { passive: false });
+    </script>
+    <script type="module" crossorigin src="./assets/index-BMGI03Vg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Db5phK8A.css">
   </head>
   <body>
     <div id="app"></div>

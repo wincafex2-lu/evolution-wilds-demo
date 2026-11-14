@@ -6,9 +6,9 @@
 
 | 路徑 | 內容 | 來源 |
 | --- | --- | --- |
-| `index.html` | 首頁，依階段排列（第 7 階段史前鱷魚先留空位，做好後改成連到 `creatures/?creature=<ID>`） | 手寫 |
+| `index.html` | 首頁，依階段排列（新生物做好後加一張卡片，連到 `creatures/?creature=<ID>`） | 手寫 |
 | `art/` | 第 6 階段 芽尾獸 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
-| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、8 小蛇、9 蟒蛇、10 泰坦巨蟒） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
+| `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 
 `.nojekyll` 讓 GitHub Pages 原樣提供所有檔案。
 

@@ -1,1 +1,1 @@
-M4b test build, game code a230bdf, built 2026-11-15T05:25:35Z; branch claude/project-thread-oco1dp; content 0.7.0, protocol 0.6.0
+game fe8062e (branch claude/project-thread-oco1dp), built 2026-11-15 for /m4b-test/: play-test fixes (food heights, airborne dragons, body points, stats sheet)

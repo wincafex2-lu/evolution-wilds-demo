@@ -1,1 +1,1 @@
-M4c test build 6 from claude/project-thread-7c0fiz fa7d012 (2026-11-15): big creatures step over small props (logs, mushrooms, crystals); trees and pillars stay solid; hit-area fans on the ground
+M4c test build 7 from claude/project-thread-7c0fiz fe9a047 (2026-11-15): redrawn skill and attack effects (approved by 泓), big creatures step over small props, hit-area fans on the ground

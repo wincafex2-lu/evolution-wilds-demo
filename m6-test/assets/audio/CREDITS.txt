@@ -1,0 +1,6 @@
+Evolution Wilds - sound credits (details: docs/AUDIO.md)
+
+"Oculus Audio Pack 01" by Oculus VR, LLC (https://developers.meta.com/vr/downloads/package/oculus-audio-pack-1/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Edited, layered and pitch-shifted.
+"Storm" by Erdie (https://freesound.org/s/23221/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Edited.
+Music performed from VSCO 2 Community Edition samples by Versilian Studios (CC0) and Meta Piano / Meta Nylon Guitar samples (CC0).
+"fireplace" by martats (https://freesound.org/s/138018/), CC0.

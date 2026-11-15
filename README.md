@@ -13,6 +13,7 @@
 | `m4a/` | 遊戲本體 M4a 世界（泓 2026-11-15「批准 /m4a/」） | `/mnt/project-files/evolution-wilds-m4a/test-dist/` @ 28231bb（M4a 定版），排除 `.map` 並刪掉 `sourceMappingURL`；之後不再覆蓋 |
 | `m4a-test/` | M4a 開發中測試版（可重複覆蓋）；`?diag=1` 是 iPad mini 效能診斷頁，用自己的存檔欄位 "diag" | 私有 repo M4a 測試建置，由 /mnt/project-files/evolution-wilds-m4a/test-dist/ 複製，不含 .map |
 | `m4b-test/` | M4b 神獸開發中測試版（可重複覆蓋；泓 2026-11-15「批准 /m4b-test/」） | `/mnt/project-files/evolution-wilds-m4b/test-dist/`，不含 .map、刪掉 sourceMappingURL |
+| `m4c-test/` | M4c 元素開發中測試版（可重複覆蓋；泓 2026-11-15「批准 /m4c-test/」） | `/mnt/project-files/evolution-wilds-m4c/test-dist/`，不含 .map、刪掉 sourceMappingURL |
 | `m2/` | 遊戲本體 M2 測試版（`?stress=30` 壓力測試；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m2/game-dist/`（分支 `claude/project-thread-4vet3m` @ a672c74），複製時排除 `.map` 並刪掉 `sourceMappingURL` |
 | `creatures/` | 進化線生物實驗室（目前：1 螞蟻、2 蚱蜢、3 螳螂、4 蟑螂、5 蚯蚓、7 史前鱷魚、8 小蛇、9 蟒蛇、10 泰坦巨蟒、神獸線 11–16 蛟龍／神龍線、11 小玄武龜、12 玄武龜、13 泰坦玄武龜、14 小玄武、15 玄武、16 泰坦玄武、11–16 猛獸恐龍線） | 生物實驗室；蚯蚓的 `annelid*`、蛇類的 `scale*` 材質與它們的 GLB 來自 evolution-wilds 分支 `claude/project-thread-jtd15f` |
 

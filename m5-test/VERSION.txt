@@ -1,1 +1,1 @@
-M5 test build 8 — 2982caf (S16 motion clips + hidden move effects) 2026-11-15T15:02:01Z
+M5 test build 9 — e8d1f89 (skill clips on all divine + hidden forms) 2026-11-15T15:08:30Z

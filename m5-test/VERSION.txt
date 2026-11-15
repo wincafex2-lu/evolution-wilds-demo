@@ -1,3 +1,3 @@
-M5 test build 5
-game commit 8172178 (branch claude/project-thread-2r0zwi)
-2026-11-15: + six hidden-form models (霸王泰坦暴龍 still being revised)
+M5 test build 6
+game commit 821b54a (branch claude/project-thread-2r0zwi)
+2026-11-15: + sound effects and music (real recordings)

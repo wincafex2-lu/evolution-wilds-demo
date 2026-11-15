@@ -1,3 +1,3 @@
-M5 test build 1
-game commit 5cc450e (branch claude/project-thread-2r0zwi)
-2026-11-15: dragon line stronger, zone bosses re-balanced; 血脈 crystals from zone bosses (+3% attack/hp each, max 10)
+M5 test build 2
+game commit 02dda45 (branch claude/project-thread-2r0zwi)
+2026-11-15: + hidden evolutions (rules, evolve-screen card, gold HIDDEN button key R; gold stand-in look until the 7 models land)

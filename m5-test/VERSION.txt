@@ -1,3 +1,3 @@
-M5 test build 2
-game commit 02dda45 (branch claude/project-thread-2r0zwi)
-2026-11-15: + hidden evolutions (rules, evolve-screen card, gold HIDDEN button key R; gold stand-in look until the 7 models land)
+M5 test build 3
+game commit c2f9d02 (branch claude/project-thread-2r0zwi)
+2026-11-15: + creature codex (圖鑑)

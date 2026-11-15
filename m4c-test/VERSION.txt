@@ -1,1 +1,1 @@
-M4c test build 3 from claude/project-thread-7c0fiz 3f31596 (2026-11-15): big creatures no longer roll on dodge
+M4c test build 4 from claude/project-thread-7c0fiz 49d3c9c (2026-11-15): rocks no longer block, big bodies slide past obstacles; big creatures hop instead of rolling

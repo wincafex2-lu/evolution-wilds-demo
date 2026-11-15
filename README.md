@@ -10,6 +10,7 @@
 | `art/` | 第 6 階段 芽尾獸 × 草原（含攻擊、受擊、轉身、進食） | 美術樣板 + hit-turn-eat-clips 補丁 |
 | `game/` | 遊戲本體 M1 測試版（泓 2026-11-14 同意公開） | 私人倉庫 `evolution-wilds` 的 `release/m1`（32347bc），`apps/web` 用 `npx vite build --sourcemap false` 建置（不要附 .map） |
 | `m3/` | 遊戲本體 M3 測試版（進化與戰鬥；泓 2026-11-14 同意公開） | `/mnt/project-files/evolution-wilds-m3/game-dist/`（分支 `claude/project-thread-vngf7f` @ 3a3106a），排除 `.map` 並刪掉 `sourceMappingURL` |
+| `m4c/` | 遊戲本體 M4c（元素；含 M4b 神獸；泓 2026-11-15「批准m4c合併後推送」） | `/mnt/project-files/evolution-wilds-m4c/test-dist/` 測試版 7 = fe9a047（驗收版 644f4cc 只改文件），排除 `.map` 並刪掉 `sourceMappingURL`；之後不再覆蓋 |
 | `m4a/` | 遊戲本體 M4a 世界（泓 2026-11-15「批准 /m4a/」） | `/mnt/project-files/evolution-wilds-m4a/test-dist/` @ 28231bb（M4a 定版），排除 `.map` 並刪掉 `sourceMappingURL`；之後不再覆蓋 |
 | `m4a-test/` | M4a 開發中測試版（可重複覆蓋）；`?diag=1` 是 iPad mini 效能診斷頁，用自己的存檔欄位 "diag" | 私有 repo M4a 測試建置，由 /mnt/project-files/evolution-wilds-m4a/test-dist/ 複製，不含 .map |
 | `m4b-test/` | M4b 神獸開發中測試版（可重複覆蓋；泓 2026-11-15「批准 /m4b-test/」） | `/mnt/project-files/evolution-wilds-m4b/test-dist/`，不含 .map、刪掉 sourceMappingURL |

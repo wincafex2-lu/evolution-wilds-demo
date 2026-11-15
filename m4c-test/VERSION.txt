@@ -1,1 +1,1 @@
-M4c test build 2 from claude/project-thread-7c0fiz e44b47f (2026-11-15): body-type skills, moves, reactions, effects
+M4c test build 3 from claude/project-thread-7c0fiz 3f31596 (2026-11-15): big creatures no longer roll on dodge

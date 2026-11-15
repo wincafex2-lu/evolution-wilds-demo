@@ -1,3 +1,1 @@
-M5 test build 6
-game commit 821b54a (branch claude/project-thread-2r0zwi)
-2026-11-15: + sound effects and music (real recordings)
+M5 test build 7 — 9ec9c7d (titan skills, credits, overlord model) 2026-11-15T14:53:43Z

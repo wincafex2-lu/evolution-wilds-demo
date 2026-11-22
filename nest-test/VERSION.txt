@@ -1,1 +1,1 @@
-nest-raiders test build 4 (3c46ad6) 2026-11-22 M2: fixes dead panel buttons and camera drag (HUD layer ate pointer events), hold bar anchored to egg, hatch countdown on nest eggs, 42 species models, wider zones and speed gates; rooms use wss://45-76-50-96.sslip.io/nest/ws (protocol 0.3.0)
+nest-raiders test build 5 (4ea72e5) 2026-11-22: storage/equip-best/bulk-sell, stale page auto-reload via build.txt, build label, protocol 0.4.0; rooms use wss://45-76-50-96.sslip.io/nest/ws

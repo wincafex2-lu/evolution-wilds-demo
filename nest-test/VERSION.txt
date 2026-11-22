@@ -1,1 +1,1 @@
-nest-raiders test build 6 (3fd030d) 2026-11-22: guardians chase until the home safe circle, retuned chase speeds; protocol 0.4.0 content 0.4.1
+nest-raiders test build 7 (4699a70) 2026-11-22: guardian lunge repeats every 8 s during the chase home; protocol 0.5.0 content 0.5.0

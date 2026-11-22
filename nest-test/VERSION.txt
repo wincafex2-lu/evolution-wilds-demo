@@ -1,1 +1,1 @@
-nest-raiders test build 5 (4ea72e5) 2026-11-22: storage/equip-best/bulk-sell, stale page auto-reload via build.txt, build label, protocol 0.4.0; rooms use wss://45-76-50-96.sslip.io/nest/ws
+nest-raiders test build 6 (3fd030d) 2026-11-22: guardians chase until the home safe circle, retuned chase speeds; protocol 0.4.0 content 0.4.1

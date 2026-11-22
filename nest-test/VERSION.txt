@@ -1,1 +1,1 @@
-nest-raiders test build 2 (aa60cfa) 2026-11-22 M2: guardians, speed shop, five zones, hold bar on the egg; rooms use wss://45-76-50-96.sslip.io/nest/ws (protocol 0.3.0)
+nest-raiders test build 3 (a9313f5) 2026-11-22 M2: blocky art kit models (player, eggs, guardians, meadow creatures), retuned guardian speeds; rooms use wss://45-76-50-96.sslip.io/nest/ws (protocol 0.3.0)

@@ -1,0 +1,1 @@
+nest-raiders test build 1 (8bd0591) 2026-11-22 M1-in-progress: solo play works offline; room mode needs the game server (not deployed)

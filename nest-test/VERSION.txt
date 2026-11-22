@@ -1,1 +1,1 @@
-nest-raiders test build 7 (4699a70) 2026-11-22: guardian lunge repeats every 8 s during the chase home; protocol 0.5.0 content 0.5.0
+nest-raiders test build 8 (5ccf3c7) 2026-11-22: bigger home safe zone, creatures stroll on the plot, size classes drawn far apart, 48-seed guardian speeds; protocol 0.5.0 content 0.6.0

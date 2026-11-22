@@ -1,1 +1,1 @@
-nest-raiders test build 1 (8bd0591) 2026-11-22 M1-in-progress: solo play works offline; room mode needs the game server (not deployed)
+nest-raiders test build 2 (aa60cfa) 2026-11-22 M2: guardians, speed shop, five zones, hold bar on the egg; rooms use wss://45-76-50-96.sslip.io/nest/ws (protocol 0.3.0)

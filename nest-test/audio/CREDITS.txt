@@ -1,0 +1,6 @@
+Sound and music credits for 巢穴神偷 (Nest Raiders)
+
+"Oculus Audio Pack 01" by Oculus VR, LLC, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Source: https://github.com/facebookincubator/Meta-open-sound (corpora/oculus-audio-pack). Edited, layered and pitch-shifted for this game.
+
+VSCO 2 Community Edition by Versilian Studios, CC0 (https://github.com/sgossner/VSCO-2-CE). All orchestral instruments in the music; harp, glockenspiel, marimba, xylophone, timpani, gong, cymbals and small percussion in the effects.
